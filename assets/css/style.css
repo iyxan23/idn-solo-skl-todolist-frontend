@@ -10,8 +10,11 @@ body {
     background: var(--bg);
     color: var(--on-bg);
 
+    height: 100vh;
+
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -58,7 +61,6 @@ h1:hover {
 }
 
 #text-input {
-    z-index: -1;
     transform: translateY(-2rem) scale(0);
     transition: transform 250ms ease-in-out;
 }
