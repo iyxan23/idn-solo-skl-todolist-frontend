@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ihsan's Todo List</title>
+</head>
+<body>
+    <h1><span contenteditable="true">Ihsan</span>'s To-Do List</h1>
+    <div id="content">
+        <div class="item">
+            <input type="checkbox" />
+            <div contenteditable=true class="item-text">Finish my tasks</div>
+            <img class="item-trash" src="assets/icons/trash.svg" width="20" />
+        </div>
+        <div class="item">
+            <input type="checkbox" />
+            <div contenteditable=true class="item-text">Finish my tasks</div>
+            <img class="item-trash" src="assets/icons/trash.svg" width="20" />
+        </div>
+        <div id="add" class="item">
+            <img id="plus" src="assets/icons/plus.svg" width="20" />
+            <img style="display: none;" id="check" src="assets/icons/check.svg" width="20" />
+        </div>
+        <input id="text-input" type="text" placeholder="Title" />
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
